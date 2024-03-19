@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex; /* Added */
+  height: 100vh;
+  width: 100%;
+}
+
+.left {
+  width: 35%;
+  height: 100vh;
+  background-color: rgb(193, 31, 31);
+  color: white;
+}
+
+.right {
+  width: 65%;
+  height: 100vh;
+  
+
+}
+
+.right >img {
+  max-width: 100%; /* Added */
+  max-height: 100%; /* Added */
+  position: absolute;
+  top: 35%;
+  left: 13%;
+  transform: rotate(-22deg);
+}
+.text h1 span{
+  font-weight: 300;
+}
+.text h1{
+  font-size: 5vh;
+}
+.text h3{
+  font-weight: 400;
+  font-size: 3vh;
+  margin-bottom: 4vh;
+}
+.text{
+  width: 25%;
+  position: absolute;
+  left: 3%;
+  top: 10%;
+}
+.text p {
+  margin-bottom: 3vh;
+}
+.text button{
+  border: none;
+  width: 11vw;
+  height: 4vh;
+  background-color: white;
+  color: rgb(193, 31, 31);
+  
+  font-weight: 600;
+  border-radius: 6px;
+}
+.bottom{
+  background-color: white;
+  width: 30%;
+  height: 80px;
+  padding: 1vh;
+  position: absolute;
+  top: 85%;
+}
+.bottom h3{
+  color: rgb(193, 31, 31);
+} 
+.bottom p{
+  color: black;
+  font-size: small;
+  
+}
+.center{
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.center p{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.view{
+  padding: 1vh;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 2px solid rgb(193, 31, 31);
+  color: rgb(193, 31, 31);
+}
+.cart{
+  padding: 1vh;
+  border-radius: 12px;
+  background-color: rgb(193, 31, 31);
+  color: white;
+  border: none;
+  width: 8vw;
+}
+.images{
+  margin-top: 2vh;
+  display: flex;
+  height: 12vh;
+  width: 12vh;
+  gap: 12px;
+}
+.center h1 span{
+  color: rgb(193, 31, 31);
+}
+.center h3 span{
+  font-weight: 400;
+  
+}
